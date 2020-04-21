@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin:0;
+}
+      
+
+.left_head{
+             
+              
+              font-size: xxx-large;
+              font-weight: 300;
+              font-family: 'Open Sans', sans-serif;
+font-family: 'Girassol', cursive;
+
+margin: 0 50px;
+              color: #4d3300;
+              text-shadow: 0px 0px 4px rgba(255, 127, 80, 0.849);
+              
+}
+
+header{
+    background-color:rgba(200,200,200,0.7);
+    
+    height: 75px;
+    margin-bottom: 15px;
+}    
+
+.right_head ul li{
+    display: inline-block;
+
+}
+
+.right_head ul li a{
+    padding: 40px;
+    text-decoration: none;
+    color:brown ;
+    font-size: large;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 70px;
+}
+
+.right_head{
+    float: right;
+}
+
+.right_head ul li a:hover{
+    color: #ff6666;
+}
+
+body{
+    background-image: url('https://imageog.flaticon.com/icons/png/512/2183/2183202.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF');
+    background-size: cover;
+}
+
+.co{
+    margin-left: 48px;
+    
+   display: inline;
+    position: relative;
+    border: solid black;
+    
+    animation: anime 20s linear infinite;
+    font-size: 170%;
+    border-radius: 25%;
+    box-shadow:2px 2px 4px grey;
+  }
+  @keyframes anime {
+      0%{color:black;left: 0px;top:0px}
+      
+    50%  {border:solid red ; color:red; left: 0px  ; top:300px;}
+   
+   100%{color: black; left: 0px;top:0px}
+  }
+.co:hover{
+    cursor: pointer;
+    
+}
+.foot{
+    margin: 560px 0 0 0 ;
+    background-color: rgba(83, 70, 70, 0.5);
+    padding: 7px 0;
+}

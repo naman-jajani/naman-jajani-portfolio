@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin:0;
+}
+      
+
+.left_head{
+             
+              
+              font-size: xxx-large;
+              font-weight: 300;
+              font-family: 'Open Sans', sans-serif;
+font-family: 'Girassol', cursive;
+
+margin: 0 50px;
+              color: #4d3300;
+              text-shadow: 0px 0px 4px rgba(255, 127, 80, 0.849);
+              
+}
+
+header{
+    background-color:rgba(200,200,200,0.7);
+    
+    height: 75px;
+    margin-bottom: 15px;
+}    
+
+.right_head ul li{
+    display: inline-block;
+
+}
+
+.right_head ul li a{
+    padding: 40px;
+    text-decoration: none;
+    color:brown ;
+    font-size: large;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 70px;
+}
+
+.right_head{
+    float: right;
+}
+
+.right_head ul li a:hover{
+    color: #ff6666;
+}
+
+body{
+    background-image: url('https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+}
+
+.icons{
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: 200px;
+
+}
+
+.fb{
+
+    padding-right: 100px;
+    position: relative;
+    animation: fb 5s linear infinite;
+}
+
+.ig{
+    
+    padding-left: 100px;
+    position: relative;
+    animation: ig 5s linear infinite;
+}
+@keyframes ig{
+
+    50%{
+        transform: translateX(200px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+@keyframes fb{
+
+    50%{
+        transform: translateX(-200px);
+        
+    }
+    100%{
+        transform: translateX(0px);
+    }
+
+}
+
+.li{
+     
+    position: relative;
+    animation: li 10s linear infinite;
+}
+
+@keyframes li{
+25%{
+    transform: translateY(200px);
+}
+
+75%{
+    transform: translateY(-200px);
+    
+}
+
+100%{
+    transform: translateY(0px);
+}
+}
+.foot{
+    margin: 200px 0 0 0 ;
+    background-color: rgba(83, 70, 70, 0.5);
+    padding: 7px 0;
+}
